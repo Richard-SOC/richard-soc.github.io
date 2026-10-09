@@ -23,7 +23,7 @@ security investigations.
 | [Incident Response](projects/incident-response.md) | Investigation, containment |
 
 ## Portfolio Website
-https://YOUR-USERNAME.github.io
+https://richard-soc.github.io
 
 ## Certifications
 - Google Cloud Certified – Professional Security Operations Engineer
