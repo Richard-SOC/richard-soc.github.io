@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Richard Abraham's SOC Analyst portfolio featuring SIEM detections, threat hunting, phishing analysis, and incident response.">
+  <title>Richard Abraham | SOC Analyst Portfolio</title>
+  <style>
+    :root {
+      --bg: #0b1120;
+      --panel: #121c30;
+      --text: #edf3ff;
+      --muted: #aab8d0;
+      --accent: #65e6c1;
+      --border: #2b3b54;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: var(--accent); }
+    .container { width: min(1000px, 90%); margin: auto; }
+    header { padding: 18px 0; border-bottom: 1px solid var(--border); }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    nav a { text-decoration: none; font-size: 14px; }
+    .hero { padding: 76px 0 55px; }
+    .eyebrow { color: var(--accent); font-weight: bold; }
+    h1 { font-size: clamp(36px, 7vw, 60px); line-height: 1.1; margin: 14px 0; }
+    h2 { font-size: 28px; margin-bottom: 10px; }
+    h3 { margin-top: 0; }
+    .intro { max-width: 700px; color: var(--muted); font-size: 18px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+    .button {
+      display: inline-block; padding: 10px 16px; border-radius: 8px;
+      border: 1px solid var(--accent); text-decoration: none;
+      font-weight: bold;
+    }
+    .primary { background: var(--accent); color: #08131a; }
+    section { padding: 35px 0; }
+    .muted { color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 22px; }
+    .card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 22px; }
+    .tag { display: inline-block; border: 1px solid var(--border); border-radius: 20px; padding: 4px 10px; margin: 4px 4px 4px 0; font-size: 13px; }
+    footer { margin-top: 40px; padding: 25px 0; border-top: 1px solid var(--border); color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#workflow">SOC Workflow</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="about">
+      <div class="eyebrow">CYBERSECURITY · SECURITY OPERATIONS</div>
+      <h1>Richard Abraham</h1>
+      <h2>SOC Analyst | Security Analyst</h2>
+      <p class="intro">
+        Security Analyst with 2.1 years of experience in SOC operations,
+        incident response, SIEM monitoring, and security investigations.
+        Interested in threat detection, threat hunting, and improving
+        security alert triage.
+      </p>
+      <div class="actions">
+        <a class="button primary"
+           href="https://github.com/YOUR-USERNAME">
+          View GitHub
+        </a>
+        <a class="button"
+           href="https://www.linkedin.com/">
+          LinkedIn
+        </a>
+      </div>
+      <p class="muted">Projects and lab exercises are documented below.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <p class="muted">Tools and concepts relevant to security operations.</p>
+      <div>
+        <span class="tag">Microsoft Sentinel</span>
+        <span class="tag">Splunk</span>
+        <span class="tag">Microsoft Defender</span>
+        <span class="tag">KQL</span>
+        <span class="tag">SPL</span>
+        <span class="tag">SIEM Monitoring</span>
+        <span class="tag">Incident Response</span>
+        <span class="tag">Phishing Analysis</span>
+        <span class="tag">Threat Hunting</span>
+        <span class="tag">MITRE ATT&CK</span>
+        <span class="tag">IOC Analysis</span>
+        <span class="tag">Email Security</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <p class="muted">
+        Practical exercises using simulated or sanitized security data.
+      </p>
+      <div class="grid">
+        <article class="card">
+          <h3>01 · Microsoft Sentinel</h3>
+          <p class="muted">KQL detections for failed logins and suspicious authentication patterns.</p>
+          <a href="https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io/blob/main/projects/sentinel-kql.md">View project →</a>
+        </article>
+        <article class="card">
+          <h3>02 · Splunk SIEM</h3>
+          <p class="muted">SPL searches to identify repeated authentication failures and investigate events.</p>
+          <a href="https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io/blob/main/projects/splunk-spl.md">View project →</a>
+        </article>
+        <article class="card">
+          <h3>03 · Phishing Investigation</h3>
+          <p class="muted">Email triage, header checks, indicators, risk assessment, and remediation.</p>
+          <a href="https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io/blob/main/projects/phishing-investigation.md">View project →</a>
+        </article>
+        <article class="card">
+          <h3>04 · Incident Response</h3>
+          <p class="muted">A structured response playbook for a suspected compromised account.</p>
+          <a href="https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io/blob/main/projects/incident-response.md">View project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="workflow">
+      <h2>My SOC Investigation Workflow</h2>
+      <div class="card">
+        <p><strong>1. Detect:</strong> Review alerts and identify suspicious activity.</p>
+        <p><strong>2. Triage:</strong> Validate evidence, severity, scope, and potential impact.</p>
+        <p><strong>3. Investigate:</strong> Correlate logs, accounts, endpoints, IPs, and timestamps.</p>
+        <p><strong>4. Respond:</strong> Recommend containment and escalate according to the playbook.</p>
+        <p><strong>5. Document:</strong> Record evidence, findings, actions, and lessons learned.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For cybersecurity opportunities and professional networking:</p>
+      <p><a href="https://github.com/YOUR-USERNAME">GitHub profile</a></p>
+      <p><a href="https://www.linkedin.com/">LinkedIn profile</a> — replace with your profile URL.</p>
+      <p>Email: Add your professional email address if you want it public.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Richard Abraham · SOC Analyst Portfolio</p>
+      <p>Security lab demonstrations only. No confidential company data.</p>
+    </div>
+  </footer>
+</body>
+</html>
